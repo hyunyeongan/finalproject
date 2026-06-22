@@ -847,7 +847,7 @@ with tab4:
         cols_podium = st.columns(3)
         
         # Podium indices: 2nd place, 1st place, 3rd place
-        podium_indices = [1, 0, 2]
+        podium_indices = [0, 1, 2]
         podium_styles = {
             0: {"title": "🥇 1등 요리", "border_color": "#FFD700", "bg": "#FFFDF0"},
             1: {"title": "🥈 2등 요리", "border_color": "#C0C0C0", "bg": "#F5F5F5"},
